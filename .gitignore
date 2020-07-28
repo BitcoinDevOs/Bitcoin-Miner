@@ -1,0 +1,8 @@
+conf/*.json
+conf/index.html
+application/logs
+minera-bin/custom/*
+minera-bin/cgminerStartupScript
+assets/vendor/*
+node_modules
+*.log
