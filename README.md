@@ -1,9 +1,3 @@
-Minera
-==============
-
-**[Official Website](http://getminera.com/)**
-_______
-
 Minera is a complete system to manage and monitor your bitcoin mining hardware.
 
 Since the 0.3.x version Minera supports the following miner softwares:
@@ -20,17 +14,7 @@ Since the 0.5.x version Minera supports also network miners as:
 * Any network miner with cgminer
 * Other Minera system
 
-Please read more [how to config them here](https://github.com/michelem09/minera/wiki/Network-mining-devices)
-
 If you like it, please consider a donation:
-
-    Bitcoin: 1AmREReHNLec9EaW7gLRdW31LNSDA9SGR1
-
-Thanks.
-
-**[Download from official server (UK) minera-latest.img.zip](http://getminera.com/download/latest)**
-
-**[Download from mirror (MEGA) minera-latest.img.zip](https://mega.nz/#!aRMzkIQK!E0n7hV09QU-ba7vtrJBXBIGWzSwb8Fn8wjmzs3FC7Ws)**
 
 Look below for how to install / how to use it.
 _______
@@ -38,16 +22,8 @@ _______
 Support
 -------------
 
-If you need support please try to look at the main [forum thread here](https://bitcointalk.org/index.php?topic=596620.0). If you found a bug, want to propose some changes, want a new feature, please [write down an issue here in Github](https://github.com/michelem09/minera/issues) so we can take everything organised.
-
-* [General support/discussion forum](https://bitcointalk.org/index.php?topic=596620.0)
-* [Bugs, issues, requests](https://github.com/michelem09/minera/issues)
-
-_______
-
-Features
+If you need support please try to look at the main [forum thread here](https://bitcointalk.org/index.php?topic=596620.0). If you found a bug, want to propose some changes, want a new feature, please [write down an issue here in Github](https://github.com/michelem09/minera/issues) so we can take everything organised Features
 -------------
-
 This is a list of some of the Minera's features:
 
 **Dashboard**
@@ -116,11 +92,6 @@ You can choose for a img file to put in your SD Card or for a manual install.
 This is the Minera image file for Raspberry PI, you have only to download it and put in your SD Card.
 
 You need at least a 4GB SD Card:
-
-Official United Kingdom server:
-
-> [official-uk] **[Download minera-latest.img.zip](http://getminera.com/download/latest)**
-
 After boot up your controller, point your browser to:
 
 ```
@@ -155,7 +126,7 @@ When your web server is ready you can install Minera:
 ```
 sudo apt-get install -y redis-server git screen php5-cli php5-curl
 cd /var/www
-sudo git clone https://github.com/michelem09/minera
+sudo git clone https://github.com/
 cd minera
 sudo ./install_minera.sh
 ```
